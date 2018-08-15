@@ -60,6 +60,7 @@ type ChangeStats struct {
     HighPrice          float64 `json:"highPrice,string"`
     LowPrice           float64 `json:"lowPrice,string"`
     Volume             float64 `json:"volume,string"`
+    QuoteVolume        float64 `json:"quoteVolume,string"`
     OpenTime           int64   `json:"openTime"`
     CloseTime          int64   `json:"closeTime"`
     FirstId            int64   `json:"firstId"`
